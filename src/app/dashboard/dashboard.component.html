@@ -1,0 +1,44 @@
+<h3>EMPLOYEE DETAILS</h3>
+<form>
+<table  cellpadding="5" cellspacing="0">
+    <tr> <td style="width: 50%">
+    <label for="First_Name"><b>NAME *</b></label><br />
+    <input name="First_Name" type="text" maxlength="50" style="width:100%;max-width: 260px" />
+    </td> <td style="width: 50%">
+    </td> </tr> <tr> <td colspan="2">
+        <label for="ADDRESS"><b>ADDRESS *</b></label><br />
+        <textarea name="ADDRESS" cols="30" rows="10"></textarea>
+    </td> </tr> <tr> <td colspan="2">
+        <label for="DOB"><b>DATE OF BIRTH *</b></label><br /> 
+        <input type="date">
+    </td> </tr> <tr> <td>
+    <label for="Position"><b>ROLE FOR *</b></label><br />
+   <select name="role">
+       <option value="ADMIN">ADMIN</option>
+       <option value="MANAGER">MANAGER</option>
+       <option value="HR">HR</option>
+       <option value="DEVELOPER">DEVELOPER</option>
+   </select>
+    <!-- <input name="Position" type="text" maxlength="100" style="width:100%;max-width: 535px" /> -->
+    </td> </tr> <tr> <td>
+   
+    </td> </tr> <tr> <td>
+    <label for="Phone"><b>PHONE *</b></label><br />
+    <input name="Phone" type="text" maxlength="50" style="width:100%;max-width: 260px" />
+    </td> <td>
+ 
+    </td> </tr> <tr> <td colspan="2">
+      
+        <label > <b>GENDER</b></label><br />
+<input type="radio" id="m" name="a1"><label for="m">MALE</label><br>
+<input type="radio" id="n" name="a1"><label for="n">FEMALE</label><br>
+<input type="radio" id="b" name="a1"><label for="b">OTHERS</label><br>
+ 
+    </td> </tr> <tr> <td colspan="2">
+        
+    
+    <input name="skip_submit" type="submit" value="SUBMIT" />
+    <button routerLink="home">VIEW DETAILS</button>
+    </td> </tr>
+    </table>
+    </form>

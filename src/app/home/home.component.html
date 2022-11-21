@@ -1,0 +1,44 @@
+<div class="view">
+ 
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+
+            </div>
+            <!-- <button class="btn btn-primary"routerLink="/home" style=" margin-left:850px">HOME PAGE</button> -->
+            <div class="col-5 tble">
+                <h1 style="color:red">DETAILS</h1>
+            <table class=" view_table" style=" color:rgb(74, 46, 46);">
+                <thead>
+                    <tr>
+                        <th>NAME</th>
+                        <th>ADDRESS</th>
+                        <th>DOB</th>
+                        <th>ROLE</th>
+                        <th>PHONE</th>
+                        <th>GENDER</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let i ,let k=index">
+                        <th>{{i.name}}</th>
+                        <th>{{i.address}}</th>
+                       <th>{{i.date}}</th>
+                       <th>{{i.role}}</th>
+                       <th>{{i.phone}}</th>
+                       <th>{{i.gender}}</th>
+                    </tr>
+                
+            
+                </tbody>
+               </table>
+              
+            </div>
+            <div class="col-3">
+               
+            </div>
+        </div>
+    </div>
+   
+</div>
